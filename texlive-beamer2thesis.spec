@@ -1,4 +1,4 @@
-# revision 24429
+# revision 24496
 # category Package
 # catalog-ctan /macros/latex/contrib/beamer-contrib/themes/beamer2thesis
 # catalog-date 2011-10-28 19:27:59 +0200
@@ -6,7 +6,7 @@
 # catalog-version 2.1
 Name:		texlive-beamer2thesis
 Version:	2.1
-Release:	1
+Release:	2
 Summary:	Thesis presentations using beamer
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/themes/beamer2thesis
