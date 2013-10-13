@@ -1,12 +1,12 @@
-# revision 24496
+# revision 27539
 # category Package
 # catalog-ctan /macros/latex/contrib/beamer-contrib/themes/beamer2thesis
-# catalog-date 2011-10-28 19:27:59 +0200
+# catalog-date 2012-08-27 10:11:59 +0200
 # catalog-license lppl
-# catalog-version 2.1
+# catalog-version 2.2
 Name:		texlive-beamer2thesis
-Version:	2.1
-Release:	3
+Version:	2.2
+Release:	1
 Summary:	Thesis presentations using beamer
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/themes/beamer2thesis
@@ -58,22 +58,3 @@ The package specifies a beamer theme for presenting a thesis.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.1-3
-+ Revision: 749527
-- Rebuild to reduce used resources
-
-* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.1-2
-+ Revision: 729625
-- texlive-beamer2thesis
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.1-1
-+ Revision: 717895
-- texlive-beamer2thesis
-- texlive-beamer2thesis
-- texlive-beamer2thesis
-- texlive-beamer2thesis
-- texlive-beamer2thesis
-
