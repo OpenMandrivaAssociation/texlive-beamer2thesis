@@ -1,18 +1,12 @@
-# revision 27539
-# category Package
-# catalog-ctan /macros/latex/contrib/beamer-contrib/themes/beamer2thesis
-# catalog-date 2012-08-27 10:11:59 +0200
-# catalog-license lppl
-# catalog-version 2.2
 Name:		texlive-beamer2thesis
-Version:	2.2
-Release:	11
+Version:	27539
+Release:	1
 Summary:	Thesis presentations using beamer
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/themes/beamer2thesis
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer2thesis.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer2thesis.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer2thesis.r27539.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer2thesis.doc.r27539.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -22,12 +16,12 @@ Requires(post):	texlive-kpathsea
 The package specifies a beamer theme for presenting a thesis.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -51,7 +45,7 @@ The package specifies a beamer theme for presenting a thesis.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
