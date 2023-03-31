@@ -1,6 +1,6 @@
 Name:		texlive-beamer2thesis
 Version:	27539
-Release:	1
+Release:	2
 Summary:	Thesis presentations using beamer
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/themes/beamer2thesis
